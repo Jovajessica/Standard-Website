@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding:0;
+}
+.navbar {
+    list-style-type: none; /* it takes out the list circles*/
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    background-color: rgba(176, 167, 209, 0.603);
+    width: 100%;
+    overflow-y: hidden;
+    border: 1px solid rgb(195, 255, 225);} /*It makes a grey like border like round the lists*/
+.navbar li {
+    float:left;
+    text-align: center;
+    border-right: 1px solid #555;
+}
+.navbar li a{
+    display: block;
+    color: #000;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: large;
+}
+.navbar li a:hover{
+background-color: rgb(221, 176, 176);
+color: rgb(0, 0, 0);
+}
